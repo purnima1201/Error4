@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
 const SwitchNavigator=createSwitchNavigator({
   WelcomeScreen:{screen:WelcomeScreen},
   Drawer:{screen:AppDrawerNavigator},
-  BottomTab:{screens:AppTabNavigator}
+  BottomTab:{screen:AppTabNavigator}
 })
 
 const AppContainer=createAppContainer(SwitchNavigator)
